@@ -209,6 +209,29 @@ red09_task =
     markText = ''
 }
 -------------------------------------------------------------------------------------------------------
+red09_task = 
+{
+    name = 'r09',
+    coalition = 1,
+    startTrigger = "10901",
+    goodEndTrigger = "10902",
+    badEndTrigeer = "10903",
+    cancelTrigger = "10904",
+    startMsgFriendly = [["Deep strike/penetration"/"Глубокое проникновение"
+Разведка сообщила, что в AL Ain International Airport (CM58) прибыла группа С-130 с очень важными грузами. Вы должны их уничтожить. Будьте внимательны! Разведка доложила, что аэропорт прикрывает 1 батарея ЗРК "Пэтриот". Для вашей поддержки в районе EN будет курсировать Заправщик Ил-78М]],
+    startMsgEnemy = "",
+    goodEndMsgFriendly = 'Задача "Глубокое проникновение" выполнена!',
+    goodEndMsgEnemy = "",
+    badEndMsgFriendly = "",
+    badEndMsgEnemy = "",
+    cancelEndMsgFriendly = "",
+    cancelEndMsgEnemy = "",
+    briefMsgFriendly = nil,
+    briefMsgEnemy = "",
+    markZoneName = "",
+    markText = ''
+}
+-------------------------------------------------------------------------------------------------------
 
 table.insert(redFixedWingTasksConfig, red01_task)
 table.insert(redFixedWingTasksConfig, red02_task)
