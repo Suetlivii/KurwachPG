@@ -66,7 +66,7 @@ red03_task =
 Арабская Коалиция развернула комплекс ПВО на острове Tunb Kochak (CQ10), тем самым накрыв ракетным зонтиком немаленькую часть пролива. Вбомбите это дерьмо в каменный век!
 
 "Island adventure"
-The Arab Coalition has deployed a SAM unit on the island of Tunb Kochak (CQ10), thereby covering a large part of the strait with a anti-air umbrella. Bomb this shit in the stone age!]],
+The Arab Coalition has deployed a SAM unit on the island of Tunb Kochak (CQ10), thereby covering a large part of the strait with a anti-air umbrella. Bomb this shit to the stone age!]],
     startMsgEnemy = "",
     goodEndMsgFriendly = 'Задача "Островное приключение" выполнена!',
     goodEndMsgEnemy = "",
@@ -144,7 +144,7 @@ red06_task =
 Разведка сообщила - К северу от города Дубаи (Квадрат CP), стоит на рейде Крейсер УРО класса "Тикондерога". Вы знаете что делать, Джентльмены!
 
 "Sea Hunt"
-Intelligence reported - At north of the Dubai-city (CP Square), is Ticonderoga class CG. You know what to do, gentlemen!]],
+Intelligence reported - North of the Dubai-city (CP Square), is Ticonderoga class CG. You know what to do, gentlemen!]],
     startMsgEnemy = "",
     goodEndMsgFriendly = 'Задача "Морская Охота" выполнена!',
     goodEndMsgEnemy = "",
@@ -222,7 +222,7 @@ red09_task =
 Разведка сообщила, что в AL Ain International Airport (CM58) прибыла группа С-130 с очень важными грузами. Вы должны их уничтожить. Будьте внимательны! Наши агенты докладывают, что аэропорт прикрывает 1 батарея ЗРК "Пэтриот". Для вашей поддержки в районе EN будет курсировать Заправщик Ил-78М.
 
 "Deep penetration"
-Intelligence reported that a group of C-130s with very important cargo arrived at AL Ain International Airport (CM58). You must destroy them. Be careful! Our agent reported that the airport was covered by Patriot SAM. For your support, the IL-78M Tanker will run in the EN area]],
+Intelligence reported that a group of C-130s with very important cargo arrived at AL Ain International Airport (CM58). You must destroy them. Be careful! Our agent reported that the airport was covered by Patriot SAM's. For your support, the IL-78M Tanker will run in the EN area]],
     startMsgEnemy = "",
     goodEndMsgFriendly = 'Задача "Глубокое проникновение" выполнена!',
     goodEndMsgEnemy = "",
