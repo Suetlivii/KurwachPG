@@ -115,10 +115,10 @@ red05_task =
     badEndTrigeer = "10503",
     cancelTrigger = "10504",
     startMsgFriendly = [["Вмешательство"
-2 Фрегата типа Perry ВМС Пакистана входят в акваторию пролива (Квадрат DN). В случае агрессивного поведения - уничтожить!
+Фрегат типа Perry ВМС Пакистана входят в акваторию пролива (Квадрат DN). В случае агрессивного поведения - уничтожить!
 
 "Intervention"
-2 Perry class frigates of the Pakistan Navy enter the strait water area (DN Square). In case of aggressive behavior - destroy them!]],
+Perry class frigate of the Pakistan Navy enter the strait water area (DN Square). In case of aggressive behavior - destroy them!]],
     startMsgEnemy = "",
     goodEndMsgFriendly = 'Задача "Вмешательство" выполнена!',
     goodEndMsgEnemy = "",
@@ -141,10 +141,10 @@ red06_task =
     badEndTrigeer = "10603",
     cancelTrigger = "10604",
     startMsgFriendly = [["Морская Охота"
-Разведка сообщила - К северу от города Дубаи (Квадрат CP), стоит на рейде Крейсер УРО класса "Тикондерога". Вы знаете что делать, Джентльмены!
+Разведка сообщила - К северу от города Дубаи (Квадрат CP), стоит на рейде фрегат класса "Perry". Вы знаете что делать, Джентльмены!
 
 "Sea Hunt"
-Intelligence reported - North of the Dubai-city (CP Square), is Ticonderoga class CG. You know what to do, gentlemen!]],
+Intelligence reported - North of the Dubai-city (CP Square), is "Perry" class CC. You know what to do, gentlemen!]],
     startMsgEnemy = "",
     goodEndMsgFriendly = 'Задача "Морская Охота" выполнена!',
     goodEndMsgEnemy = "",
@@ -167,7 +167,7 @@ red07_task =
     badEndTrigeer = "10703",
     cancelTrigger = "10704",
     startMsgFriendly = [["Портовые шлюхи"
-Разведка сообщает - В квадрате DP30 силы Арабской Коалиции готовят технику/людей для морского десанта. Нанесите "визит дружбы" в данный район.
+Разведка сообщает - В квадрате DP30 силы Арабской Коалиции готовят технику и людей для морского десанта. Нанесите "визит дружбы" в данный район.
 
 "Port whores"
 Intelligence reports - In the DP30 square, the forces of the Arab Coalition are preparing equipment and people for amphibious assault. Make a "friendship visit" to the area.]],
@@ -236,6 +236,58 @@ Intelligence reported that a group of C-130s with very important cargo arrived a
     markText = ''
 }
 -------------------------------------------------------------------------------------------------------
+red10_task = 
+{
+    name = 'r10',
+    coalition = 1,
+    startTrigger = "11001",
+    goodEndTrigger = "11002",
+    badEndTrigeer = "11003",
+    cancelTrigger = "11004",
+    startMsgFriendly = [["Флешбэки Тяныча"
+Патрульный вертолет обнаружил скопление противника в деревне Ash Shishan в квадрате DQ30. У противника не обнаружино ПВО. Разбомбите их!
+
+"Flashbacks of Tyanch"
+A patrol helicopter detected enemy forces in Ash Shishan Village (DQ30). The enemy has no air defense. Bomb them!]],
+    startMsgEnemy = "",
+    goodEndMsgFriendly = 'Задача "Флешбэки Тяныча" выполнена!',
+    goodEndMsgEnemy = "",
+    badEndMsgFriendly = "",
+    badEndMsgEnemy = "",
+    cancelEndMsgFriendly = "",
+    cancelEndMsgEnemy = "",
+    briefMsgFriendly = nil,
+    briefMsgEnemy = "",
+    markZoneName = "",
+    markText = ''
+}
+-------------------------------------------------------------------------------------------------------
+red11_task = 
+{
+    name = 'r11',
+    coalition = 1,
+    startTrigger = "11101",
+    goodEndTrigger = "11102",
+    badEndTrigeer = "11103",
+    cancelTrigger = "11104",
+    startMsgFriendly = [["Безумие Сири"
+Вражеская коалиция собрала огромное количество iPhone 20 на острове Sirri Island (BP56). Оставим врагов без связи. Разбомбите 4 склада и уничтожьте всю технику противника на острове.
+
+"Siri's Madness"
+The enemy coalition has collected a huge number of iPhone 20 on Sirri Island (BP56). Leave the enemies without communication. Bomb 4 warehouses and destroy all enemy vehicles on the island.]],
+    startMsgEnemy = "",
+    goodEndMsgFriendly = 'Задача "Безумие Сири" выполнена!',
+    goodEndMsgEnemy = "",
+    badEndMsgFriendly = "",
+    badEndMsgEnemy = "",
+    cancelEndMsgFriendly = "",
+    cancelEndMsgEnemy = "",
+    briefMsgFriendly = nil,
+    briefMsgEnemy = "",
+    markZoneName = "",
+    markText = ''
+}
+-------------------------------------------------------------------------------------------------------
 
 table.insert(redFixedWingTasksConfig, red01_task)
 table.insert(redFixedWingTasksConfig, red02_task)
@@ -246,3 +298,5 @@ table.insert(redFixedWingTasksConfig, red06_task)
 table.insert(redFixedWingTasksConfig, red07_task)
 table.insert(redFixedWingTasksConfig, red08_task)
 table.insert(redFixedWingTasksConfig, red09_task)
+table.insert(redFixedWingTasksConfig, red10_task)
+table.insert(redFixedWingTasksConfig, red11_task)
