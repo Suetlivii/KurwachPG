@@ -16,7 +16,7 @@ red01_task =
 "Old Classics"
 Turkish speedboats captured a tanker in DQ57 square. Destroy them!]],
     startMsgEnemy = "",
-    goodEndMsgFriendly = 'Задача "Старая Классика" выполнена!',
+    goodEndMsgFriendly = 'Задача выполнена! Mission complete!',
     goodEndMsgEnemy = "",
     badEndMsgFriendly = "",
     badEndMsgEnemy = "",
@@ -42,7 +42,7 @@ red02_task =
 "Remove Kebab"
 Intelligence reports -The UAE convoy is moving from DP06 to the Khasab Airfield area (DP-19) to provide a bridgehead for the offensive. Make sure that the column does not reach.]],
     startMsgEnemy = "",
-    goodEndMsgFriendly = 'Задача "Remove Kebab" выполнена!',
+    goodEndMsgFriendly = 'Задача выполнена! Mission complete!',
     goodEndMsgEnemy = "",
     badEndMsgFriendly = 'Задача "Remove Kebab" провалена: колонна добралась до конечной точки.',
     badEndMsgEnemy = "",
@@ -68,7 +68,7 @@ red03_task =
 "Island adventure"
 The Arab Coalition has deployed a SAM unit on the island of Tunb Kochak (CQ10), thereby covering a large part of the strait with a anti-air umbrella. Bomb this shit to the stone age!]],
     startMsgEnemy = "",
-    goodEndMsgFriendly = 'Задача "Островное приключение" выполнена!',
+    goodEndMsgFriendly = 'Задача выполнена! Mission complete!',
     goodEndMsgEnemy = "",
     badEndMsgFriendly = "",
     badEndMsgEnemy = "",
@@ -94,7 +94,7 @@ red04_task =
 "D-Fail"
 The Arab Coalition has landed in CQ23. Intelligence reported that the landing zone was covered by a Perry Class frigate.]],
     startMsgEnemy = "",
-    goodEndMsgFriendly = 'Задача "D-Fail" выполнена!',
+    goodEndMsgFriendly = 'Задача выполнена! Mission complete!',
     goodEndMsgEnemy = "",
     badEndMsgFriendly = "",
     badEndMsgEnemy = "",
@@ -120,7 +120,7 @@ red05_task =
 "Intervention"
 Perry class frigate of the Pakistan Navy enter the strait water area (DN Square). In case of aggressive behavior - destroy them!]],
     startMsgEnemy = "",
-    goodEndMsgFriendly = 'Задача "Вмешательство" выполнена!',
+    goodEndMsgFriendly = 'Задача выполнена! Mission complete!',
     goodEndMsgEnemy = "",
     badEndMsgFriendly = "",
     badEndMsgEnemy = "",
@@ -146,7 +146,7 @@ red06_task =
 "Sea Hunt"
 Intelligence reported - North of the Dubai-city (CP Square), is "Perry" class CC. You know what to do, gentlemen!]],
     startMsgEnemy = "",
-    goodEndMsgFriendly = 'Задача "Морская Охота" выполнена!',
+    goodEndMsgFriendly = 'Задача выполнена! Mission complete!',
     goodEndMsgEnemy = "",
     badEndMsgFriendly = "",
     badEndMsgEnemy = "",
@@ -172,7 +172,7 @@ red07_task =
 "Port whores"
 Intelligence reports - In the DP30 square, the forces of the Arab Coalition are preparing equipment and people for amphibious assault. Make a "friendship visit" to the area.]],
     startMsgEnemy = "",
-    goodEndMsgFriendly = 'Задача "Портовые шлюхи" выполнена!',
+    goodEndMsgFriendly = 'Задача выполнена! Mission complete!',
     goodEndMsgEnemy = "",
     badEndMsgFriendly = "",
     badEndMsgEnemy = "",
@@ -198,9 +198,9 @@ red08_task =
 "Sweet revenge"
 MLRS shell area of the Khasab Airfield. Approximate Square of search Battery MLRS DP10]],
     startMsgEnemy = "",
-    goodEndMsgFriendly = 'Задача "Месть Сладка" выполнена!',
+    goodEndMsgFriendly = 'Задача выполнена! Mission complete!',
     goodEndMsgEnemy = "",
-    badEndMsgFriendly = 'Задача "Месть Сладка" провалена: время на выполнение - 35 минут.',
+    badEndMsgFriendly = 'Задача провалена! Mission failed!',
     badEndMsgEnemy = "",
     cancelEndMsgFriendly = "",
     cancelEndMsgEnemy = "",
@@ -224,7 +224,7 @@ red09_task =
 "Deep penetration"
 Intelligence reported that a group of C-130s with very important cargo arrived at AL Ain International Airport (CM58). You must destroy them. Be careful! Our agent reported that the airport was covered by Patriot SAM's. For your support, the IL-78M Tanker will run in the EN area]],
     startMsgEnemy = "",
-    goodEndMsgFriendly = 'Задача "Глубокое проникновение" выполнена!',
+    goodEndMsgFriendly = 'Задача выполнена! Mission complete!',
     goodEndMsgEnemy = "",
     badEndMsgFriendly = "",
     badEndMsgEnemy = "",
@@ -250,7 +250,7 @@ red10_task =
 "Flashbacks of Tyanch"
 A patrol helicopter detected enemy forces in Ash Shishan Village (DQ30). The enemy has no air defense. Bomb them!]],
     startMsgEnemy = "",
-    goodEndMsgFriendly = 'Задача "Флешбэки Тяныча" выполнена!',
+    goodEndMsgFriendly = 'Задача выполнена! Mission complete!',
     goodEndMsgEnemy = "",
     badEndMsgFriendly = "",
     badEndMsgEnemy = "",
@@ -276,7 +276,7 @@ red11_task =
 "Siri's Madness"
 The enemy coalition has collected a huge number of iPhone 20 on Sirri Island (BP56). Leave the enemies without communication. Bomb 4 warehouses and destroy all enemy vehicles on the island.]],
     startMsgEnemy = "",
-    goodEndMsgFriendly = 'Задача "Безумие Сири" выполнена!',
+    goodEndMsgFriendly = 'Задача выполнена! Mission complete!',
     goodEndMsgEnemy = "",
     badEndMsgFriendly = "",
     badEndMsgEnemy = "",
