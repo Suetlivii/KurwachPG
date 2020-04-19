@@ -340,7 +340,7 @@ Observers spotted 2 recon helicopters near Khasab base. Slam this little bitch!.
     markText = ''
 }
 -------------------------------------------------------------------------------------------------------
-red13_task = 
+red14_task = 
 {
     name = 'r14',
     coalition = 1,
@@ -357,6 +357,32 @@ Enemy AWACS patrols the strait. Radars have discovered that it is moving from th
     goodEndMsgFriendly = 'Задача выполнена! Mission complete!',
     goodEndMsgEnemy = "",
     badEndMsgFriendly = "Задача провалена - AWACS ушел из района операции / Mission Failed - AWACS have escaped operation area",
+    badEndMsgEnemy = "",
+    cancelEndMsgFriendly = "",
+    cancelEndMsgEnemy = "",
+    briefMsgFriendly = nil,
+    briefMsgEnemy = "",
+    markZoneName = "",
+    markText = ''
+}
+-------------------------------------------------------------------------------------------------------
+red15_task = 
+{
+    name = 'r15',
+    coalition = 1,
+    startTrigger = "11501",
+    goodEndTrigger = "11502",
+    badEndTrigeer = "11503",
+    cancelTrigger = "11504",
+    startMsgFriendly = [["Падение черного ястреба"
+Наш агент сообщил, что с базы Sharjah Intl (CP50) только что взлтели транспортные вертолеты с десантом! Цель высадки Tunb Island AFB! Перехватите их!
+
+"Black Hawk Down"
+Our agent said that transport helicopters with an airborne assault just flew up from the Sharjah Intl base! Landing target is Tunb Island AFB! Intercept them!.]],
+    startMsgEnemy = "",
+    goodEndMsgFriendly = 'Задача выполнена! Mission complete!',
+    goodEndMsgEnemy = "",
+    badEndMsgFriendly = "Задача провалена - Вертолеты начали высадку десанта / Mission Failed - Enemy helicopters have started landing operation",
     badEndMsgEnemy = "",
     cancelEndMsgFriendly = "",
     cancelEndMsgEnemy = "",
