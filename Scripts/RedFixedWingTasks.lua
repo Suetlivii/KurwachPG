@@ -288,6 +288,84 @@ The enemy coalition has collected a huge number of iPhone 20 on Sirri Island (BP
     markText = ''
 }
 -------------------------------------------------------------------------------------------------------
+red12_task = 
+{
+    name = 'r12',
+    coalition = 1,
+    startTrigger = "11201",
+    goodEndTrigger = "11202",
+    badEndTrigeer = "11203",
+    cancelTrigger = "11204",
+    startMsgFriendly = [["Опасный копьеносец"
+2 B-1 Lancer направляются к нашей основной базе Bandar Abass из квадрата VL. Ваша задача перехватить их до точки сброса.
+
+"Dangerous lancer"
+2 B-1 Lancer are heading to our main Bandar Abass base from the VL square. Your task is to intercept them before they reach the drop point.]],
+    startMsgEnemy = "",
+    goodEndMsgFriendly = 'Задача выполнена! Mission complete!',
+    goodEndMsgEnemy = "",
+    badEndMsgFriendly = "Задача провалена - бомбардировщики сбросили свой груз / Mission Failed - bombers droped their cargo",
+    badEndMsgEnemy = "",
+    cancelEndMsgFriendly = "",
+    cancelEndMsgEnemy = "",
+    briefMsgFriendly = nil,
+    briefMsgEnemy = "",
+    markZoneName = "",
+    markText = ''
+}
+-------------------------------------------------------------------------------------------------------
+red13_task = 
+{
+    name = 'r13',
+    coalition = 1,
+    startTrigger = "11301",
+    goodEndTrigger = "11302",
+    badEndTrigeer = "11303",
+    cancelTrigger = "11304",
+    startMsgFriendly = [["Прихлопнуть мотылька"
+Наблюдатели заметили 2 вертолета-разведчика у базы Khasab. Прихлопните эту мелочь!
+
+"slam the moth"
+Observers spotted 2 recon helicopters near Khasab base. Slam this little bitch!.]],
+    startMsgEnemy = "",
+    goodEndMsgFriendly = 'Задача выполнена! Mission complete!',
+    goodEndMsgEnemy = "",
+    badEndMsgFriendly = "Задача провалена - Разведчики ушли / Mission Failed - Recon helicopters have escaped",
+    badEndMsgEnemy = "",
+    cancelEndMsgFriendly = "",
+    cancelEndMsgEnemy = "",
+    briefMsgFriendly = nil,
+    briefMsgEnemy = "",
+    markZoneName = "",
+    markText = ''
+}
+-------------------------------------------------------------------------------------------------------
+red13_task = 
+{
+    name = 'r14',
+    coalition = 1,
+    startTrigger = "11401",
+    goodEndTrigger = "11402",
+    badEndTrigeer = "11403",
+    cancelTrigger = "11404",
+    startMsgFriendly = [["Пни малыша"
+Самолет AWACS совершает патрулирование акватории пролива. Радары обнаружили, что он движется со стороны GM. Сбейте его!
+
+"Kick the baby"
+Enemy AWACS patrols the strait. Radars have discovered that it is moving from the side of GM. Knock it down!.]],
+    startMsgEnemy = "",
+    goodEndMsgFriendly = 'Задача выполнена! Mission complete!',
+    goodEndMsgEnemy = "",
+    badEndMsgFriendly = "Задача провалена - AWACS ушел из района операции / Mission Failed - AWACS have escaped operation area",
+    badEndMsgEnemy = "",
+    cancelEndMsgFriendly = "",
+    cancelEndMsgEnemy = "",
+    briefMsgFriendly = nil,
+    briefMsgEnemy = "",
+    markZoneName = "",
+    markText = ''
+}
+-------------------------------------------------------------------------------------------------------
 
 table.insert(redFixedWingTasksConfig, red01_task)
 table.insert(redFixedWingTasksConfig, red02_task)
@@ -300,3 +378,7 @@ table.insert(redFixedWingTasksConfig, red08_task)
 table.insert(redFixedWingTasksConfig, red09_task)
 table.insert(redFixedWingTasksConfig, red10_task)
 table.insert(redFixedWingTasksConfig, red11_task)
+table.insert(redFixedWingTasksConfig, red12_task)
+table.insert(redFixedWingTasksConfig, red13_task)
+table.insert(redFixedWingTasksConfig, red14_task)
+table.insert(redFixedWingTasksConfig, red15_task)
