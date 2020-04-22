@@ -378,11 +378,114 @@ red15_task =
 Наш агент сообщил, что с базы Sharjah Intl (CP50) только что взлтели транспортные вертолеты с десантом! Цель высадки Tunb Island AFB! Перехватите их!
 
 "Black Hawk Down"
-Our agent said that transport helicopters with an airborne assault just flew up from the Sharjah Intl base! Landing target is Tunb Island AFB! Intercept them!.]],
+Our agent said that transport helicopters with an airborne assault just flew up from the Sharjah Intl base (CP50)! Landing target is Tunb Island AFB! Intercept them!.]],
     startMsgEnemy = "",
     goodEndMsgFriendly = 'Задача выполнена! Mission complete!',
     goodEndMsgEnemy = "",
     badEndMsgFriendly = "Задача провалена - Вертолеты начали высадку десанта / Mission Failed - Enemy helicopters have started landing operation",
+    badEndMsgEnemy = "",
+    cancelEndMsgFriendly = "",
+    cancelEndMsgEnemy = "",
+    briefMsgFriendly = nil,
+    briefMsgEnemy = "",
+    markZoneName = "",
+    markText = ''
+}
+-------------------------------------------------------------------------------------------------------
+red16_task = 
+{
+    name = 'r16',
+    coalition = 1,
+    startTrigger = "11601",
+    goodEndTrigger = "11602",
+    badEndTrigeer = "11603",
+    cancelTrigger = "11604",
+    startMsgFriendly = [["Буйство Лебедя"
+Союзный Ту-160 взлетает с Jiroft Airport (ES67) для пуска крылатых ракет по вражеским целям. Доставьте его живым до точки сброса или эвакуации. Через 15 минут он пройдет над Bandar Abbas Intl. Встретьте его там!
+
+"BlackJack's Rampage"
+The allied Tu-160 takes off from Jiroft Airport (ES67) to launch cruise missiles at enemy targets. Take him alive to the point of discharge or evacuation. After 15 minutes, he will pass over Bandar Abbas Intl. Meet the BlackJack there!.]],
+    startMsgEnemy = "",
+    goodEndMsgFriendly = 'Задача выполнена! Mission complete!',
+    goodEndMsgEnemy = "",
+    badEndMsgFriendly = "Задача провалена Ту-160 сбит! / Mission Failed - BlackJack is down",
+    badEndMsgEnemy = "",
+    cancelEndMsgFriendly = "",
+    cancelEndMsgEnemy = "",
+    briefMsgFriendly = nil,
+    briefMsgEnemy = "",
+    markZoneName = "",
+    markText = ''
+}
+-------------------------------------------------------------------------------------------------------
+red17_task = 
+{
+    name = 'r17',
+    coalition = 1,
+    startTrigger = "11701",
+    goodEndTrigger = "11702",
+    badEndTrigeer = "11703",
+    cancelTrigger = "11704",
+    startMsgFriendly = [["Наказать кошечку"
+С Kerman Airport (ES67) пришло срочное сообщение! Были уганы 2 F-14 иранских ВВС. Получено добро на их уничтожение!
+
+"slam the moth"
+An urgent message has arrived from Kerman Airport (ES67)! 2 F-14s of the Iranian Air Force were hijacked. Received the go-ahead for their destruction!.]],
+    startMsgEnemy = "",
+    goodEndMsgFriendly = 'Задача выполнена! Mission complete!',
+    goodEndMsgEnemy = "",
+    badEndMsgFriendly = "Задача провалена / Mission Failed",
+    badEndMsgEnemy = "",
+    cancelEndMsgFriendly = "",
+    cancelEndMsgEnemy = "",
+    briefMsgFriendly = nil,
+    briefMsgEnemy = "",
+    markZoneName = "",
+    markText = ''
+}
+-------------------------------------------------------------------------------------------------------
+red18_task = 
+{
+    name = 'r18',
+    coalition = 1,
+    startTrigger = "11801",
+    goodEndTrigger = "11802",
+    badEndTrigeer = "11803",
+    cancelTrigger = "11804",
+    startMsgFriendly = [["Эрдоган уходи"
+Разведка сообщает: 2 тяжелых транспорта ВВС Турции - С-17 Globemaster летят в AL Ain International airport из квадрата TL. Перехватите их!
+
+"Piss off Erdorgan"
+Intelligence reports: 2 Turkish Air Force C-17 Globemaster fly to AL Ain International airport from TL square. Intercept them!.]],
+    startMsgEnemy = "",
+    goodEndMsgFriendly = 'Задача выполнена! Mission complete!',
+    goodEndMsgEnemy = "",
+    badEndMsgFriendly = "Задача провалена / Mission Failed ",
+    badEndMsgEnemy = "",
+    cancelEndMsgFriendly = "",
+    cancelEndMsgEnemy = "",
+    briefMsgFriendly = nil,
+    briefMsgEnemy = "",
+    markZoneName = "",
+    markText = ''
+}
+-------------------------------------------------------------------------------------------------------
+red19_task = 
+{
+    name = 'r19',
+    coalition = 1,
+    startTrigger = "11901",
+    goodEndTrigger = "11902",
+    badEndTrigeer = "11903",
+    cancelTrigger = "11904",
+    startMsgFriendly = [["Укротитель торнадо"
+В квардрате WG замечены вражеские штурмовики идущие прямым курсом на базу Queshm Island. Укротите их!
+"Tornado Tamer"
+Enemy attack aircraft were seen in WG square! They heading straight for Queshm Island Base. Tame them!.]],
+    startMsgEnemy = "",
+    goodEndMsgFriendly = 'Задача выполнена! Mission complete!',
+    goodEndMsgEnemy = "",
+    badEndMsgFriendly = "Задача провалена/ Mission Failed",
     badEndMsgEnemy = "",
     cancelEndMsgFriendly = "",
     cancelEndMsgEnemy = "",
@@ -408,3 +511,7 @@ table.insert(redFixedWingTasksConfig, red12_task)
 table.insert(redFixedWingTasksConfig, red13_task)
 table.insert(redFixedWingTasksConfig, red14_task)
 table.insert(redFixedWingTasksConfig, red15_task)
+table.insert(redFixedWingTasksConfig, red16_task)
+table.insert(redFixedWingTasksConfig, red17_task)
+table.insert(redFixedWingTasksConfig, red18_task)
+table.insert(redFixedWingTasksConfig, red19_task)
