@@ -193,10 +193,10 @@ red08_task =
     badEndTrigeer = "10803",
     cancelTrigger = "10804",
     startMsgFriendly = [["Месть Сладка"
-РСЗО обстреливают район Аэродрома Khasab. Примерный Квадрат поиска Батареи РСЗО DP10
+РСЗО обстреливают район Аэродрома Khasab. Примерный Квадрат поиска Батареи РСЗО DP17
 
 "Sweet revenge"
-MLRS shell area of the Khasab Airfield. Approximate Square of search Battery MLRS DP10]],
+MLRS shell area of the Khasab Airfield. Approximate Square of search Battery MLRS DP17]],
     startMsgEnemy = "",
     goodEndMsgFriendly = 'Задача выполнена! Mission complete!',
     goodEndMsgEnemy = "",
@@ -429,7 +429,7 @@ red17_task =
     startMsgFriendly = [["Наказать кошечку"
 С Kerman Airport (ES67) пришло срочное сообщение! Были уганы 2 F-14 иранских ВВС. Получено добро на их уничтожение!
 
-"slam the moth"
+"Punish Kitty"
 An urgent message has arrived from Kerman Airport (ES67)! 2 F-14s of the Iranian Air Force were hijacked. Received the go-ahead for their destruction!.]],
     startMsgEnemy = "",
     goodEndMsgFriendly = 'Задача выполнена! Mission complete!',
@@ -480,6 +480,7 @@ red19_task =
     cancelTrigger = "11904",
     startMsgFriendly = [["Укротитель торнадо"
 В квардрате WG замечены вражеские штурмовики идущие прямым курсом на базу Queshm Island. Укротите их!
+
 "Tornado Tamer"
 Enemy attack aircraft were seen in WG square! They heading straight for Queshm Island Base. Tame them!.]],
     startMsgEnemy = "",
@@ -505,6 +506,7 @@ red20_task =
     cancelTrigger = "12004",
     startMsgFriendly = [["Они на деревьях!"
 Наши силы десантировались на остров Abu Musa (CP-06). Ваша задача непосредственная поддержака сил вторжения!
+
 "They are on the trees!"
 Our troops landed to Abu Musa island (CP-06). Your task is Close Air Support!.]],
     startMsgEnemy = "",
