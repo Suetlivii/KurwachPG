@@ -495,6 +495,56 @@ Enemy attack aircraft were seen in WG square! They heading straight for Queshm I
     markText = ''
 }
 -------------------------------------------------------------------------------------------------------
+red20_task = 
+{
+    name = 'r20',
+    coalition = 1,
+    startTrigger = "12001",
+    goodEndTrigger = "12002",
+    badEndTrigeer = "12003",
+    cancelTrigger = "12004",
+    startMsgFriendly = [["Они на деревьях!"
+Наши силы десантировались на остров Abu Musa (CP-06). Ваша задача непосредственная поддержака сил вторжения!
+"They are on the trees!"
+Our troops landed to Abu Musa island (CP-06). Your task is Close Air Support!.]],
+    startMsgEnemy = "",
+    goodEndMsgFriendly = 'Задача выполнена! Mission complete!',
+    goodEndMsgEnemy = "",
+    badEndMsgFriendly = "Задача провалена/ Mission Failed",
+    badEndMsgEnemy = "",
+    cancelEndMsgFriendly = "",
+    cancelEndMsgEnemy = "",
+    briefMsgFriendly = nil,
+    briefMsgEnemy = "",
+    markZoneName = "",
+    markText = ''
+}
+-------------------------------------------------------------------------------------------------------
+red21_task = 
+{
+    name = 'r21',
+    coalition = 1,
+    startTrigger = "12101",
+    goodEndTrigger = "12102",
+    badEndTrigeer = "12103",
+    cancelTrigger = "12104",
+    startMsgFriendly = [["Grand Theft Aero!"
+Наш самолет ДРЛО сообщил, что его взяли в клещи в квадрате VM, и заставляют следовать в воздушное пространство врага. Ваша задача выручить наших товарищей! 
+" Grand Theft Aero!"
+Our AWACS reported an interception by two F-15s at grid VM and is forced to enter enemy airspace. Our task is to save our comrades!.]],
+    startMsgEnemy = "",
+    goodEndMsgFriendly = 'Задача выполнена! Mission complete!',
+    goodEndMsgEnemy = "",
+    badEndMsgFriendly = "Задача провалена/ Mission Failed",
+    badEndMsgEnemy = "",
+    cancelEndMsgFriendly = "",
+    cancelEndMsgEnemy = "",
+    briefMsgFriendly = nil,
+    briefMsgEnemy = "",
+    markZoneName = "",
+    markText = ''
+}
+-------------------------------------------------------------------------------------------------------
 
 table.insert(redFixedWingTasksConfig, red01_task)
 table.insert(redFixedWingTasksConfig, red02_task)
@@ -515,3 +565,5 @@ table.insert(redFixedWingTasksConfig, red16_task)
 table.insert(redFixedWingTasksConfig, red17_task)
 table.insert(redFixedWingTasksConfig, red18_task)
 table.insert(redFixedWingTasksConfig, red19_task)
+table.insert(redFixedWingTasksConfig, red20_task)
+table.insert(redFixedWingTasksConfig, red21_task)
