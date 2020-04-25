@@ -44,7 +44,7 @@ Intelligence reports -The UAE convoy is moving from DP06 to the Khasab Airfield 
     startMsgEnemy = "",
     goodEndMsgFriendly = 'Задача выполнена! Mission complete!',
     goodEndMsgEnemy = "",
-    badEndMsgFriendly = 'Задача "Remove Kebab" провалена: колонна добралась до конечной точки.',
+    badEndMsgFriendly = 'Задача "Remove Kebab" провалена: колонна добралась до конечной точки. Mission Failed! Colunb have reach the operation area!',
     badEndMsgEnemy = "",
     cancelEndMsgFriendly = "",
     cancelEndMsgEnemy = "",
@@ -434,7 +434,7 @@ An urgent message has arrived from Kerman Airport (ES67)! 2 F-14s of the Iranian
     startMsgEnemy = "",
     goodEndMsgFriendly = 'Задача выполнена! Mission complete!',
     goodEndMsgEnemy = "",
-    badEndMsgFriendly = "Задача провалена / Mission Failed",
+    badEndMsgFriendly = "Задача провалена! Цель ушла во вражеское пространство / Mission Failed! Target have escaped in Enemy airspace.",
     badEndMsgEnemy = "",
     cancelEndMsgFriendly = "",
     cancelEndMsgEnemy = "",
@@ -460,7 +460,7 @@ Intelligence reports: 2 Turkish Air Force C-17 Globemaster fly to AL Ain Interna
     startMsgEnemy = "",
     goodEndMsgFriendly = 'Задача выполнена! Mission complete!',
     goodEndMsgEnemy = "",
-    badEndMsgFriendly = "Задача провалена / Mission Failed ",
+    badEndMsgFriendly = "Задача провалена! Транспорт достиг своей цели. / Mission Failed! Enemy transport have reach the target.",
     badEndMsgEnemy = "",
     cancelEndMsgFriendly = "",
     cancelEndMsgEnemy = "",
@@ -486,7 +486,7 @@ Enemy attack aircraft were seen in WG square! They heading straight for Queshm I
     startMsgEnemy = "",
     goodEndMsgFriendly = 'Задача выполнена! Mission complete!',
     goodEndMsgEnemy = "",
-    badEndMsgFriendly = "Задача провалена/ Mission Failed",
+    badEndMsgFriendly = "Задача провалена. Queshm подвергся атаке / Mission Failed. Queshm have been attacked",
     badEndMsgEnemy = "",
     cancelEndMsgFriendly = "",
     cancelEndMsgEnemy = "",
@@ -512,7 +512,7 @@ Our troops landed to Abu Musa island (CP-06). Your task is Close Air Support!.]]
     startMsgEnemy = "",
     goodEndMsgFriendly = 'Задача выполнена! Mission complete!',
     goodEndMsgEnemy = "",
-    badEndMsgFriendly = "Задача провалена/ Mission Failed",
+    badEndMsgFriendly = "Задача провалена! Наши силы потерпели поражение. / Mission Failed! Our troops have been destroyed",
     badEndMsgEnemy = "",
     cancelEndMsgFriendly = "",
     cancelEndMsgEnemy = "",
@@ -532,12 +532,65 @@ red21_task =
     cancelTrigger = "12104",
     startMsgFriendly = [["Grand Theft Aero!"
 Наш самолет ДРЛО сообщил, что его взяли в клещи в квадрате VM, и заставляют следовать в воздушное пространство врага. Ваша задача выручить наших товарищей! 
-" Grand Theft Aero!"
+"
+"Grand Theft Aero!"
 Our AWACS reported an interception by two F-15s at grid VM and is forced to enter enemy airspace. Our task is to save our comrades!.]],
     startMsgEnemy = "",
     goodEndMsgFriendly = 'Задача выполнена! Mission complete!',
     goodEndMsgEnemy = "",
-    badEndMsgFriendly = "Задача провалена/ Mission Failed",
+    badEndMsgFriendly = "Задача провалена. Самолет ДРЛО теперь у врага! / Mission Failed! AWACS is now at the enemy!",
+    badEndMsgEnemy = "",
+    cancelEndMsgFriendly = "",
+    cancelEndMsgEnemy = "",
+    briefMsgFriendly = nil,
+    briefMsgEnemy = "",
+    markZoneName = "",
+    markText = ''
+}
+-------------------------------------------------------------------------------------------------------
+red22_task = 
+{
+    name = 'r22',
+    coalition = 1,
+    startTrigger = "12201",
+    goodEndTrigger = "12202",
+    badEndTrigeer = "12203",
+    cancelTrigger = "12204",
+    startMsgFriendly = [["Нефтяное безумие!"
+Что бы поднять цену на нефть, командование приказывает уничтожить 2 нефтяных платформы в квадрате CP76.
+"
+"Oil madness!"
+To raise the price of oil, the command orders the destruction of 2 oil platforms in square CP76.]],
+    startMsgEnemy = "",
+    goodEndMsgFriendly = 'Задача выполнена! Mission complete!',
+    goodEndMsgEnemy = "",
+    badEndMsgFriendly = "",
+    badEndMsgEnemy = "",
+    cancelEndMsgFriendly = "",
+    cancelEndMsgEnemy = "",
+    briefMsgFriendly = nil,
+    briefMsgEnemy = "",
+    markZoneName = "",
+    markText = ''
+}
+-------------------------------------------------------------------------------------------------------
+red23_task = 
+{
+    name = 'r23',
+    coalition = 1,
+    startTrigger = "12301",
+    goodEndTrigger = "12302",
+    badEndTrigeer = "12303",
+    cancelTrigger = "12304",
+    startMsgFriendly = [["Гонка по горам!"
+Наши войска высадили некоторе количество техники на территорию противника. Они хотят занять выгодную позицию в горной деревне в квадрате DP13. Ваша задача оказать поддержку и прикрыть союзную колонну техники!
+
+"Mountain racing!"
+Our troops landed a certain amount of equipment on the territory of the enemy. They want to take a vantage point in a mountain village in square DP13. Your task is to provide support and cover the allied column of equipment!]],
+    startMsgEnemy = "",
+    goodEndMsgFriendly = 'Задача выполнена! Mission complete!',
+    goodEndMsgEnemy = "",
+    badEndMsgFriendly = "Миссия провалена! Наша колонна разбита. / Mission failed! Our column have been destroyed",
     badEndMsgEnemy = "",
     cancelEndMsgFriendly = "",
     cancelEndMsgEnemy = "",
@@ -569,3 +622,5 @@ table.insert(redFixedWingTasksConfig, red18_task)
 table.insert(redFixedWingTasksConfig, red19_task)
 table.insert(redFixedWingTasksConfig, red20_task)
 table.insert(redFixedWingTasksConfig, red21_task)
+table.insert(redFixedWingTasksConfig, red22_task)
+table.insert(redFixedWingTasksConfig, red23_task)
