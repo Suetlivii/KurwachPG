@@ -2,7 +2,7 @@
 redRotaryWingTasksConfig = {}
 
 -------------------------------------------------------------------------------------------------------
-red01_task = 
+red_heli_01_task = 
 {
     name = 'rh01',
     coalition = 1,
@@ -28,7 +28,7 @@ In a small village in the northeast of DP26, 2 armored vehicles were seen. Find,
     markText = ''
 }
 -------------------------------------------------------------------------------------------------------
-red02_task = 
+red_heli_02_task = 
 {
     name = 'rh02',
     coalition = 1,
@@ -54,7 +54,7 @@ Our agent reports that in the DP27 square in the area of the road through the mo
     markText = ''
 }
 -------------------------------------------------------------------------------------------------------
-red03_task = 
+red_heli_03_task = 
 {
     name = 'rh03',
     coalition = 1,
@@ -81,6 +81,6 @@ Enemies stole an alcohol tank from our airfield. Your task is to destroy the con
 }
 -------------------------------------------------------------------------------------------------------
 
-table.insert(redRotaryWingTasksConfig, red01_task)
-table.insert(redRotaryWingTasksConfig, red02_task)
-table.insert(redRotaryWingTasksConfig, red03_task)
+table.insert(redRotaryWingTasksConfig, red_heli_01_task)
+table.insert(redRotaryWingTasksConfig, red_heli_02_task)
+table.insert(redRotaryWingTasksConfig, red_heli_03_task)
