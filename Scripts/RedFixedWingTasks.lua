@@ -245,10 +245,10 @@ red10_task =
     badEndTrigeer = "11003",
     cancelTrigger = "11004",
     startMsgFriendly = [[10."Флешбэки Тяныча"
-Патрульный вертолет обнаружил скопление противника в деревне Ash Shishan в квадрате DQ30. У противника не обнаружино ПВО. Разбомбите их!
+Патрульный вертолет обнаружил скопление противника в деревне Salib в квадрате DQ31. У противника не обнаружино ПВО. Разбомбите их!
 
 10."Flashbacks of Tyanch"
-A patrol helicopter detected enemy forces in Ash Shishan Village (DQ30). The enemy has no air defense. Bomb them!]],
+A patrol helicopter detected enemy forces in Salib (DQ31). The enemy has no air defense. Bomb them!]],
     startMsgEnemy = "",
     goodEndMsgFriendly = 'Задача выполнена! Mission complete!',
     goodEndMsgEnemy = "",
@@ -582,11 +582,11 @@ red23_task =
     goodEndTrigger = "12302",
     badEndTrigeer = "12303",
     cancelTrigger = "12304",
-    startMsgFriendly = [[23."Гонка по горам!"
-Наши войска высадили некоторе количество техники на территорию противника. Они хотят занять выгодную позицию в горной деревне в квадрате DP13. Ваша задача оказать поддержку и прикрыть союзную колонну техники!
+    startMsgFriendly = [[23."Равнинные гонки!"
+Наши войска хотят выдавить часть сил противника с нашей стороны хребта. Они хотят зачистить деревню Sal al Ala (DP38). Ваша задача оказать поддержку и прикрыть союзную колонну техники!
 
-23."Mountain racing!"
-Our troops landed a certain amount of equipment on the territory of the enemy. They want to take a vantage point in a mountain village in square DP13. Your task is to provide support and cover the allied column of equipment!]],
+23."Flat racing!"
+Our troops want to squeeze out part of the enemy’s forces from our side of the ridge. They want to clean up the village of Sal al Ala (DP38). Your task is to provide support and cover the allied column of IFV and APCs!]],
     startMsgEnemy = "",
     goodEndMsgFriendly = 'Задача выполнена! Mission complete!',
     goodEndMsgEnemy = "",
@@ -609,10 +609,10 @@ red24_task =
     badEndTrigeer = "12403",
     cancelTrigger = "12404",
     startMsgFriendly = [[24."Гранд Отель"
-Радведка сообщает! Выскопоставленное лицо вражеской коалиции сделало опрометчивый шаг. И появился в Гранд Отеле на насыпном острове Palm Jumeirah (CN18). Ваша задача ликвидировать выскокопоставленное лицо и всю вражескую технику которая вам встретится.
+Раздведка сообщает! Выскопоставленное лицо вражеской коалиции сделало опрометчивый шаг. И появился в Гранд Отеле на насыпном острове Palm Jumeirah (CN18). Ваша задача ликвидировать выскокопоставленное лицо и всю вражескую технику которая вам встретится.
 
 24."Grand Hotel"
-Radvedka reports! The face of the enemy coalition took a rash step. And appeared at the Grand Hotel on the bulk island of Palm Jumeirah (CN18). Your task is to eliminate the high-ranking person and all the enemy equipment that you will meet.]],
+Intelligence reports! The face of the enemy coalition took a rash step. And appeared at the Grand Hotel on the bulk island of Palm Jumeirah (CN18). Your task is to eliminate the high-ranking person and all the enemy equipment that you will meet.]],
     startMsgEnemy = "",
     goodEndMsgFriendly = 'Задача выполнена! Mission complete!',
     goodEndMsgEnemy = "",

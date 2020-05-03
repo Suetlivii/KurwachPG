@@ -16,7 +16,7 @@ red_heli_01_task =
 01."Ambassadors of the peace"
 In a small village in the northeast of DP26, 2 armored vehicles were seen. Find, identify, and if necessary destroy the enemy.]],
     startMsgEnemy = "",
-    goodEndMsgFriendly = 'Задача выполнена! Mission complete!',
+    goodEndMsgFriendly = 'Вертолетная задача выполнена! Helicopter mission complete!',
     goodEndMsgEnemy = "",
     badEndMsgFriendly = "",
     badEndMsgEnemy = "",
@@ -42,7 +42,7 @@ red_heli_02_task =
 02."Hunt for bait"
 Our agent reports that in the DP27 square in the area of the road through the mountain pass, the calculation of MANPADS is hidden. Search and destroy.]],
     startMsgEnemy = "",
-    goodEndMsgFriendly = 'Задача выполнена! Mission complete!',
+    goodEndMsgFriendly = 'Вертолетная задача выполнена! Helicopter mission complete!',
     goodEndMsgEnemy = "",
     badEndMsgFriendly = "",
     badEndMsgEnemy = "",
@@ -68,7 +68,7 @@ red_heli_03_task =
 03."Where is Vodka?"
 Enemies stole an alcohol tank from our airfield. Your task is to destroy the convoy, but not the tank. If you cannot save the alcohol, you are allowed to destroy the vodka-tank]],
     startMsgEnemy = "",
-    goodEndMsgFriendly = 'Задача выполнена! Mission complete!',
+    goodEndMsgFriendly = 'Вертолетная задача выполнена! Helicopter mission complete!',
     goodEndMsgEnemy = "",
     badEndMsgFriendly = "Цистерна со спиртом потеряна, но миссия считается успешной / Alcohol tank lost, but mission considered successful",
     badEndMsgEnemy = "",
@@ -94,7 +94,7 @@ red_heli_04_task =
 04."Baywatch Malibu"
 Enemy group spoted in Ghassah (DQ30).]],
     startMsgEnemy = "",
-    goodEndMsgFriendly = 'Задача выполнена! Mission complete!',
+    goodEndMsgFriendly = 'Вертолетная задача выполнена! Helicopter mission complete!',
     goodEndMsgEnemy = "",
     badEndMsgFriendly = "",
     badEndMsgEnemy = "",
@@ -120,7 +120,7 @@ red_heli_05_task =
 05."Today will be hail"
 A group of MLRS that is moving to the deployment area (DP07) is seen. Destroy the group!]],
     startMsgEnemy = "",
-    goodEndMsgFriendly = 'Задача выполнена! Mission complete!',
+    goodEndMsgFriendly = 'Вертолетная задача выполнена! Helicopter mission complete!',
     goodEndMsgEnemy = "",
     badEndMsgFriendly = "Миссия провалена! Группа противника достигла своей цели. / Mission failed! The enemy group has reached its target.",
     badEndMsgEnemy = "",
@@ -146,7 +146,7 @@ red_heli_06_task =
 06."Enemy on the verge"
 AA group of infantry was noticed just 3 kilometers west of Khasab. Break the enemy forces!]],
     startMsgEnemy = "",
-    goodEndMsgFriendly = 'Задача выполнена! Mission complete!',
+    goodEndMsgFriendly = 'Вертолетная задача выполнена! Helicopter mission complete!',
     goodEndMsgEnemy = "",
     badEndMsgFriendly = "",
     badEndMsgEnemy = "",
@@ -172,7 +172,59 @@ red_heli_07_task =
 07."District №7"
 In the town of Hayr Salam (DP38), local residents report the arrival of 3 enemy APC! It is too close to our base. Strip this place!]],
     startMsgEnemy = "",
-    goodEndMsgFriendly = 'Задача выполнена! Mission complete!',
+    goodEndMsgFriendly = 'Вертолетная задача выполнена! Helicopter mission complete!',
+    goodEndMsgEnemy = "",
+    badEndMsgFriendly = "",
+    badEndMsgEnemy = "",
+    cancelEndMsgFriendly = "",
+    cancelEndMsgEnemy = "",
+    briefMsgFriendly = nil,
+    briefMsgEnemy = "",
+    markZoneName = "",
+    markText = ''
+}
+-------------------------------------------------------------------------------------------------------
+red_heli_08_task = 
+{
+    name = 'rh08',
+    coalition = 1,
+    startTrigger = "30801",
+    goodEndTrigger = "30802",
+    badEndTrigeer = "30803",
+    cancelTrigger = "30804",
+    startMsgFriendly = [[08."Я покажу тебе мир"
+В бухту DP48 зашли вооруженные суда противника. Есть информация, что на одном из них находится высокопоставленный офицер. Пускай отдохнут на дне морском!
+
+08."I will show you the world"
+Armed enemy vessels entered DP48 Bay. There is information that one of them is a high-ranking officer. Let them rest at the bottom of the sea!]],
+    startMsgEnemy = "",
+    goodEndMsgFriendly = 'Вертолетная задача выполнена! Helicopter mission complete!',
+    goodEndMsgEnemy = "",
+    badEndMsgFriendly = "Миссия провалена! Суда вышли из зоны операции! Mission failed! Ships left the operation zone!",
+    badEndMsgEnemy = "",
+    cancelEndMsgFriendly = "",
+    cancelEndMsgEnemy = "",
+    briefMsgFriendly = nil,
+    briefMsgEnemy = "",
+    markZoneName = "",
+    markText = ''
+}
+-------------------------------------------------------------------------------------------------------
+red_heli_09_task = 
+{
+    name = 'rh09',
+    coalition = 1,
+    startTrigger = "30901",
+    goodEndTrigger = "30902",
+    badEndTrigeer = "30903",
+    cancelTrigger = "30904",
+    startMsgFriendly = [[09."Получите-распишитесь"
+В квардрате DQ21 обнаружена группа скоростных лодок противника! Они движутся в строну порта у Khasab. Желательно утопить их до того как они доберутся до точки назначения!
+
+09."Receive-sign"
+A group of enemy high-speed boats was discovered in DQ21 They move to the port side of Khasab. It is advisable to drown them before they reach their destination!]],
+    startMsgEnemy = "",
+    goodEndMsgFriendly = 'Вертолетная задача выполнена! Helicopter mission complete!',
     goodEndMsgEnemy = "",
     badEndMsgFriendly = "",
     badEndMsgEnemy = "",
@@ -192,3 +244,5 @@ table.insert(redRotaryWingTasksConfig, red_heli_04_task)
 table.insert(redRotaryWingTasksConfig, red_heli_05_task)
 table.insert(redRotaryWingTasksConfig, red_heli_06_task)
 table.insert(redRotaryWingTasksConfig, red_heli_07_task)
+table.insert(redRotaryWingTasksConfig, red_heli_08_task)
+table.insert(redRotaryWingTasksConfig, red_heli_09_task)
