@@ -236,6 +236,84 @@ A group of enemy high-speed boats was discovered in DQ21 They move to the port s
     markText = ''
 }
 -------------------------------------------------------------------------------------------------------
+red_heli_10_task = 
+{
+    name = 'rh10',
+    coalition = 1,
+    startTrigger = "31001",
+    goodEndTrigger = "31002",
+    badEndTrigeer = "31003",
+    cancelTrigger = "31004",
+    startMsgFriendly = [[10."Открытая угроза"
+В местечке Al Jowar (DP21) обнаружена группа тяжелой техники противника! Они явно что-то замышляют. Пришейте их до того, как они догадаются атаковать!
+
+10."Open threat"
+Al Jowar (DP21) spotted a group of enemy heavy equipment! They are obviously plotting something. Sew them before they guess to attack!]],
+    startMsgEnemy = "",
+    goodEndMsgFriendly = 'Вертолетная задача выполнена! Helicopter mission complete!',
+    goodEndMsgEnemy = "",
+    badEndMsgFriendly = "",
+    badEndMsgEnemy = "",
+    cancelEndMsgFriendly = "",
+    cancelEndMsgEnemy = "",
+    briefMsgFriendly = nil,
+    briefMsgEnemy = "",
+    markZoneName = "",
+    markText = ''
+}
+-------------------------------------------------------------------------------------------------------
+red_heli_11_task = 
+{
+    name = 'rh11',
+    coalition = 1,
+    startTrigger = "31101",
+    goodEndTrigger = "31102",
+    badEndTrigeer = "31103",
+    cancelTrigger = "31104",
+    startMsgFriendly = [[11."Дальний рейд"
+В квадрате DP13, одна из деревень "набита" вражеской техникой. Ваша задача "разворошить гнездо". Будте готовы к серьезному противодействию.
+
+11."Long raid"
+In square DP13, one of the villages is “packed” with enemy troops. Your task is to "open the nest". Be prepared for serious resistance.]],
+    startMsgEnemy = "",
+    goodEndMsgFriendly = 'Вертолетная задача выполнена! Helicopter mission complete!',
+    goodEndMsgEnemy = "",
+    badEndMsgFriendly = "",
+    badEndMsgEnemy = "",
+    cancelEndMsgFriendly = "",
+    cancelEndMsgEnemy = "",
+    briefMsgFriendly = nil,
+    briefMsgEnemy = "",
+    markZoneName = "",
+    markText = ''
+}
+-------------------------------------------------------------------------------------------------------
+red_heli_12_task = 
+{
+    name = 'rh12',
+    coalition = 1,
+    startTrigger = "31201",
+    goodEndTrigger = "31202",
+    badEndTrigeer = "31203",
+    cancelTrigger = "31204",
+    startMsgFriendly = [[12."Веселый налёт"
+На границе квадратов DP26 и DP36, в местечке Ar Rawdah, обнаружено скопление противника. Совершим налет на это проклятое место!
+
+12."Receive-sign"
+On the border of squares DP26 and DP36, in the town of Ar Rawdah, a concentration of the enemy troops was discovered. Let's raid this damned place!]],
+    startMsgEnemy = "",
+    goodEndMsgFriendly = 'Вертолетная задача выполнена! Helicopter mission complete!',
+    goodEndMsgEnemy = "",
+    badEndMsgFriendly = "",
+    badEndMsgEnemy = "",
+    cancelEndMsgFriendly = "",
+    cancelEndMsgEnemy = "",
+    briefMsgFriendly = nil,
+    briefMsgEnemy = "",
+    markZoneName = "",
+    markText = ''
+}
+-------------------------------------------------------------------------------------------------------
 
 table.insert(redRotaryWingTasksConfig, red_heli_01_task)
 table.insert(redRotaryWingTasksConfig, red_heli_02_task)
@@ -246,3 +324,6 @@ table.insert(redRotaryWingTasksConfig, red_heli_06_task)
 table.insert(redRotaryWingTasksConfig, red_heli_07_task)
 table.insert(redRotaryWingTasksConfig, red_heli_08_task)
 table.insert(redRotaryWingTasksConfig, red_heli_09_task)
+table.insert(redRotaryWingTasksConfig, red_heli_10_task)
+table.insert(redRotaryWingTasksConfig, red_heli_11_task)
+table.insert(redRotaryWingTasksConfig, red_heli_12_task)
