@@ -5,6 +5,7 @@ redFixedWingTasksConfig = {}
 red01_task = 
 {
     name = 'r01',
+    groupsPrefixes = { "FW" },
     coalition = 1,
     startTrigger = "10101",
     goodEndTrigger = "10102",
@@ -31,6 +32,7 @@ Turkish speedboats captured a tanker in DQ57 square. Destroy them!]],
 red02_task = 
 {
     name = 'r02',
+    groupsPrefixes = { "FW" },
     coalition = 1,
     startTrigger = "10201",
     goodEndTrigger = "10202",
@@ -57,6 +59,7 @@ Intelligence reports -The UAE convoy is moving from DP06 to the Khasab Airfield 
 red03_task = 
 {
     name = 'r03',
+    groupsPrefixes = { "FW" },
     coalition = 1,
     startTrigger = "10301",
     goodEndTrigger = "10302",
@@ -83,6 +86,7 @@ The Arab Coalition has deployed a SAM unit on the island of Tunb Kochak (CQ10), 
 red04_task = 
 {
     name = 'r04',
+    groupsPrefixes = { "FW" },
     coalition = 1,
     startTrigger = "10401",
     goodEndTrigger = "10402",
@@ -109,6 +113,7 @@ The Arab Coalition has landed in CQ23. Intelligence reported that the landing zo
 red05_task = 
 {
     name = 'r05',
+    groupsPrefixes = { "FW" },
     coalition = 1,
     startTrigger = "10501",
     goodEndTrigger = "10502",
@@ -135,6 +140,7 @@ Perry class frigate of the Pakistan Navy enter the strait water area (DN Square)
 red06_task = 
 {
     name = 'r06',
+    groupsPrefixes = { "FW" },
     coalition = 1,
     startTrigger = "10601",
     goodEndTrigger = "10602",
@@ -161,6 +167,7 @@ Intelligence reported - North of the Dubai-city (CP Square), is "Perry" class CC
 red07_task = 
 {
     name = 'r07',
+    groupsPrefixes = { "FW" },
     coalition = 1,
     startTrigger = "10701",
     goodEndTrigger = "10702",
@@ -187,6 +194,7 @@ Intelligence reports - In the DP30 square, the forces of the Arab Coalition are 
 red08_task = 
 {
     name = 'r08',
+    groupsPrefixes = { "FW" },
     coalition = 1,
     startTrigger = "10801",
     goodEndTrigger = "10802",
@@ -213,6 +221,7 @@ MLRS shell area of the Khasab Airfield. Approximate Square of search Battery MLR
 red09_task = 
 {
     name = 'r09',
+    groupsPrefixes = { "FW" },
     coalition = 1,
     startTrigger = "10901",
     goodEndTrigger = "10902",
@@ -239,6 +248,7 @@ Intelligence reported that a group of C-130s with very important cargo arrived a
 red10_task = 
 {
     name = 'r10',
+    groupsPrefixes = { "FW" },
     coalition = 1,
     startTrigger = "11001",
     goodEndTrigger = "11002",
@@ -265,6 +275,7 @@ A patrol helicopter detected enemy forces in Salib (DQ31). The enemy has no air 
 red11_task = 
 {
     name = 'r11',
+    groupsPrefixes = { "FW" },
     coalition = 1,
     startTrigger = "11101",
     goodEndTrigger = "11102",
@@ -291,6 +302,7 @@ The enemy coalition has collected a huge number of iPhone 20 on Sirri Island (BP
 red12_task = 
 {
     name = 'r12',
+    groupsPrefixes = { "FW" },
     coalition = 1,
     startTrigger = "11201",
     goodEndTrigger = "11202",
@@ -317,6 +329,7 @@ red12_task =
 red13_task = 
 {
     name = 'r13',
+    groupsPrefixes = { "FW" },
     coalition = 1,
     startTrigger = "11301",
     goodEndTrigger = "11302",
@@ -343,6 +356,7 @@ Observers spotted 2 recon helicopters near Khasab base. Slam this little bitch!.
 red14_task = 
 {
     name = 'r14',
+    groupsPrefixes = { "FW" },
     coalition = 1,
     startTrigger = "11401",
     goodEndTrigger = "11402",
@@ -369,6 +383,7 @@ Enemy AWACS patrols the strait. Radars have discovered that it is moving from th
 red15_task = 
 {
     name = 'r15',
+    groupsPrefixes = { "FW" },
     coalition = 1,
     startTrigger = "11501",
     goodEndTrigger = "11502",
@@ -395,6 +410,7 @@ Our agent said that transport helicopters with an airborne assault just flew up 
 red16_task = 
 {
     name = 'r16',
+    groupsPrefixes = { "FW" },
     coalition = 1,
     startTrigger = "11601",
     goodEndTrigger = "11602",
@@ -421,6 +437,7 @@ The allied Tu-160 takes off from Jiroft Airport (ES67) to launch cruise missiles
 red17_task = 
 {
     name = 'r17',
+    groupsPrefixes = { "FW" },
     coalition = 1,
     startTrigger = "11701",
     goodEndTrigger = "11702",
@@ -447,6 +464,7 @@ An urgent message has arrived from Kerman Airport (ES67)! 2 F-14s of the Iranian
 red18_task = 
 {
     name = 'r18',
+    groupsPrefixes = { "FW" },
     coalition = 1,
     startTrigger = "11801",
     goodEndTrigger = "11802",
@@ -473,6 +491,7 @@ Intelligence reports: 2 Turkish Air Force C-17 Globemaster fly to AL Ain Interna
 red19_task = 
 {
     name = 'r19',
+    groupsPrefixes = { "FW" },
     coalition = 1,
     startTrigger = "11901",
     goodEndTrigger = "11902",
@@ -499,6 +518,7 @@ Enemy attack aircraft were seen in WG square! They heading straight for Queshm I
 red20_task = 
 {
     name = 'r20',
+    groupsPrefixes = { "FW" },
     coalition = 1,
     startTrigger = "12001",
     goodEndTrigger = "12002",
@@ -525,6 +545,7 @@ Our troops landed to Abu Musa island (CP-06). Your task is Close Air Support!.]]
 red21_task = 
 {
     name = 'r21',
+    groupsPrefixes = { "FW" },
     coalition = 1,
     startTrigger = "12101",
     goodEndTrigger = "12102",
@@ -551,6 +572,7 @@ Our AWACS reported an interception by two F-15s at grid VM and is forced to ente
 red22_task = 
 {
     name = 'r22',
+    groupsPrefixes = { "FW" },
     coalition = 1,
     startTrigger = "12201",
     goodEndTrigger = "12202",
@@ -577,6 +599,7 @@ To raise the price of oil, the command orders the destruction of 2 oil platforms
 red23_task = 
 {
     name = 'r23',
+    groupsPrefixes = { "FW" },
     coalition = 1,
     startTrigger = "12301",
     goodEndTrigger = "12302",
@@ -603,6 +626,7 @@ Our troops want to squeeze out part of the enemy’s forces from our side of the
 red24_task = 
 {
     name = 'r24',
+    groupsPrefixes = { "FW" },
     coalition = 1,
     startTrigger = "12401",
     goodEndTrigger = "12402",
@@ -629,6 +653,7 @@ Intelligence reports! The face of the enemy coalition took a rash step. And appe
 red25_task = 
 {
     name = 'r25',
+    groupsPrefixes = { "FW" },
     coalition = 1,
     startTrigger = "12501",
     goodEndTrigger = "12502",

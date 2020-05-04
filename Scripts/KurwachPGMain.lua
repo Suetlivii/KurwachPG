@@ -2,11 +2,11 @@ Debug = Debuger:New(ME_isDebugMode)
 
 --Adding menu commands ----------------------------------------------------------------------------------
 --For fixed wing (FW) aircraft
-FixedWingGroupMenuManager = GroupMenuManager:New()
-FixedWingGroupMenuManager:AddMenuCommandForGroupsWithPrefix("FW", nil, "Show mission")
+FixedWingF10CommandController = GroupPrefixF10CommandController:New()
+FixedWingF10CommandController:AddMenuCommandForGroupsWithPrefix("FW", nil, "Show mission")
 --For rotary wing (RW) aircraft
-RotaryWingGroupMenuManager = GroupMenuManager:New()
-RotaryWingGroupMenuManager:AddMenuCommandForGroupsWithPrefix("RW", nil, "Show mission")
+RotaryWingF10CommandController = GroupPrefixF10CommandController:New()
+RotaryWingF10CommandController:AddMenuCommandForGroupsWithPrefix("RW", nil, "Show mission")
 
 
 --Adding task managers -----------------------------------------------------------------------------------
@@ -37,15 +37,15 @@ RedRotaryWingTaskManager:StartTasking()
 BlueFixedWingBriefTaskReportManager = TaskReportManager:New(BlueFixedWingTaskManager, "Show mission", 45)
 RedFixedWingBriefTaskReportManager = TaskReportManager:New(RedFixedWingTaskManager, "Show mission", 45)
 --Adding those task report managers to menu commnad managers
-FixedWingGroupMenuManager:AddListener(BlueFixedWingBriefTaskReportManager)
-FixedWingGroupMenuManager:AddListener(RedFixedWingBriefTaskReportManager)
+FixedWingF10CommandController:AddListener(BlueFixedWingBriefTaskReportManager)
+FixedWingF10CommandController:AddListener(RedFixedWingBriefTaskReportManager)
 
 --Adding task report managers that will show task brief on "Show mission" menu command for ROTARY wing aircraft
 BlueRotaryWingBriefTaskReportManager = TaskReportManager:New(BlueRotaryWingTaskManager, "Show mission", 45)
 RedRotaryWingBriefTaskReportManager = TaskReportManager:New(RedRotaryWingTaskManager, "Show mission", 45)
 --Adding those task report managers to menu commnad managers
-RotaryWingGroupMenuManager:AddListener(BlueRotaryWingBriefTaskReportManager)
-RotaryWingGroupMenuManager:AddListener(RedRotaryWingBriefTaskReportManager)
+RotaryWingF10CommandController:AddListener(BlueRotaryWingBriefTaskReportManager)
+RotaryWingF10CommandController:AddListener(RedRotaryWingBriefTaskReportManager)
 
 
 --Group randomizer init -------------------------------------------------------------------------------------

@@ -5,6 +5,7 @@ redRotaryWingTasksConfig = {}
 red_heli_01_task = 
 {
     name = 'rh01',
+    groupsPrefixes = { "RW" },
     coalition = 1,
     startTrigger = "30101",
     goodEndTrigger = "30102",
@@ -31,6 +32,7 @@ In a small village in the northeast of DP26, 2 armored vehicles were seen. Find,
 red_heli_02_task = 
 {
     name = 'rh02',
+    groupsPrefixes = { "RW" },
     coalition = 1,
     startTrigger = "30201",
     goodEndTrigger = "30202",
@@ -57,6 +59,7 @@ Our agent reports that in the DP27 square in the area of the road through the mo
 red_heli_03_task = 
 {
     name = 'rh03',
+    groupsPrefixes = { "RW" },
     coalition = 1,
     startTrigger = "30301",
     goodEndTrigger = "30302",
@@ -83,6 +86,7 @@ Enemies stole an alcohol tank from our airfield. Your task is to destroy the con
 red_heli_04_task = 
 {
     name = 'rh04',
+    groupsPrefixes = { "RW" },
     coalition = 1,
     startTrigger = "30401",
     goodEndTrigger = "30402",
@@ -109,6 +113,7 @@ Enemy group spoted in Ghassah (DQ30).]],
 red_heli_05_task = 
 {
     name = 'rh05',
+    groupsPrefixes = { "RW" },
     coalition = 1,
     startTrigger = "30501",
     goodEndTrigger = "30502",
@@ -135,6 +140,7 @@ A group of MLRS that is moving to the deployment area (DP07) is seen. Destroy th
 red_heli_06_task = 
 {
     name = 'rh06',
+    groupsPrefixes = { "RW" },
     coalition = 1,
     startTrigger = "30601",
     goodEndTrigger = "30602",
@@ -161,6 +167,7 @@ AA group of infantry was noticed just 3 kilometers west of Khasab. Break the ene
 red_heli_07_task = 
 {
     name = 'rh07',
+    groupsPrefixes = { "RW" },
     coalition = 1,
     startTrigger = "30701",
     goodEndTrigger = "30702",
@@ -187,6 +194,7 @@ In the town of Hayr Salam (DP38), local residents report the arrival of 3 enemy 
 red_heli_08_task = 
 {
     name = 'rh08',
+    groupsPrefixes = { "RW" },
     coalition = 1,
     startTrigger = "30801",
     goodEndTrigger = "30802",
@@ -213,6 +221,7 @@ Armed enemy vessels entered DP48 Bay. There is information that one of them is a
 red_heli_09_task = 
 {
     name = 'rh09',
+    groupsPrefixes = { "RW" },
     coalition = 1,
     startTrigger = "30901",
     goodEndTrigger = "30902",
@@ -239,6 +248,7 @@ A group of enemy high-speed boats was discovered in DQ21 They move to the port s
 red_heli_10_task = 
 {
     name = 'rh10',
+    groupsPrefixes = { "RW" },
     coalition = 1,
     startTrigger = "31001",
     goodEndTrigger = "31002",
@@ -265,6 +275,7 @@ Al Jowar (DP21) spotted a group of enemy heavy equipment! They are obviously plo
 red_heli_11_task = 
 {
     name = 'rh11',
+    groupsPrefixes = { "RW" },
     coalition = 1,
     startTrigger = "31101",
     goodEndTrigger = "31102",
@@ -291,6 +302,7 @@ In square DP13, one of the villages is “packed” with enemy troops. Your task
 red_heli_12_task = 
 {
     name = 'rh12',
+    groupsPrefixes = { "RW" },
     coalition = 1,
     startTrigger = "31201",
     goodEndTrigger = "31202",
