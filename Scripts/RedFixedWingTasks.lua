@@ -677,6 +677,33 @@ Agent reports! To the northwest of the town of Al Ima (Northern Part DP46), ther
     markText = ''
 }
 -------------------------------------------------------------------------------------------------------
+red26_task = 
+{
+    name = 'r26',
+    groupsPrefixes = { "FW" },
+    coalition = 1,
+    startTrigger = "12601",
+    goodEndTrigger = "12602",
+    badEndTrigeer = "12603",
+    cancelTrigger = "12604",
+    startMsgFriendly = [[26."Перехват"
+Срочное сообщение, что вражеские диверсанты угнали с одной из авиабаз Миг-31 с полным боекомплектом! Ваша задача перехватить его. Вам помогут наземные радары наведения.
+
+26."Intercept"
+Urgent message! Saboteurs had stolen one of our Mig-31 from our airbase with full ammunition! Your task is to intercept him. Ground guidance radars will help you.]],
+    startMsgEnemy = "",
+    goodEndMsgFriendly = 'Задача выполнена! Mission complete!',
+    goodEndMsgEnemy = "",
+    badEndMsgFriendly = "Миссия провалена! / Mission failed!",
+    badEndMsgEnemy = "",
+    cancelEndMsgFriendly = "",
+    cancelEndMsgEnemy = "",
+    briefMsgFriendly = nil,
+    briefMsgEnemy = "",
+    markZoneName = "",
+    markText = ''
+}
+-------------------------------------------------------------------------------------------------------
 
 table.insert(redFixedWingTasksConfig, red01_task)
 table.insert(redFixedWingTasksConfig, red02_task)
@@ -699,7 +726,8 @@ table.insert(redFixedWingTasksConfig, red18_task)
 table.insert(redFixedWingTasksConfig, red19_task)
 table.insert(redFixedWingTasksConfig, red20_task)
 table.insert(redFixedWingTasksConfig, red21_task)
-table.insert(redFixedWingTasksConfig, red22_task)
+--table.insert(redFixedWingTasksConfig, red22_task)
 table.insert(redFixedWingTasksConfig, red23_task)
 table.insert(redFixedWingTasksConfig, red24_task)
 table.insert(redFixedWingTasksConfig, red25_task)
+table.insert(redFixedWingTasksConfig, red26_task)
