@@ -579,10 +579,10 @@ red22_task =
     badEndTrigeer = "12203",
     cancelTrigger = "12204",
     startMsgFriendly = [[22."Нефтяное безумие!"
-Что бы поднять цену на нефть, командование приказывает уничтожить 2 нефтяных платформы в квадрате CP76.
+Что бы поднять цену на нефть, командование приказывает уничтожить 2 танкера в квадрате CP76.
 
 22."Oil madness!"
-To raise the price of oil, the command orders the destruction of 2 oil platforms in square CP76.]],
+To raise the price of oil, the command orders the destruction of 2 tankers in square CP76.]],
     startMsgEnemy = "",
     goodEndMsgFriendly = 'Задача выполнена! Mission complete!',
     goodEndMsgEnemy = "",
@@ -726,7 +726,7 @@ table.insert(redFixedWingTasksConfig, red18_task)
 table.insert(redFixedWingTasksConfig, red19_task)
 table.insert(redFixedWingTasksConfig, red20_task)
 table.insert(redFixedWingTasksConfig, red21_task)
---table.insert(redFixedWingTasksConfig, red22_task)
+table.insert(redFixedWingTasksConfig, red22_task)
 table.insert(redFixedWingTasksConfig, red23_task)
 table.insert(redFixedWingTasksConfig, red24_task)
 table.insert(redFixedWingTasksConfig, red25_task)
