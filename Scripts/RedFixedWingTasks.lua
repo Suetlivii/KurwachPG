@@ -525,10 +525,10 @@ red20_task =
     badEndTrigeer = "12003",
     cancelTrigger = "12004",
     startMsgFriendly = [[20."Они на деревьях!"
-Наши силы десантировались на остров Abu Musa (CP-06). Ваша задача непосредственная поддержака сил вторжения!
+Наши силы десантировались на остров Abu Musa (CP06). Ваша задача непосредственная поддержака сил вторжения!
 
 20."They are on the trees!"
-Our troops landed to Abu Musa island (CP-06). Your task is Close Air Support!.]],
+Our troops landed to Abu Musa island (CP06). Your task is Close Air Support!.]],
     startMsgEnemy = "",
     goodEndMsgFriendly = 'Задача выполнена! Mission complete!',
     goodEndMsgEnemy = "",

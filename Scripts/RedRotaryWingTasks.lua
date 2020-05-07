@@ -66,10 +66,10 @@ red_heli_03_task =
     badEndTrigeer = "30303",
     cancelTrigger = "30304",
     startMsgFriendly = [[03."А где спирт?"
-Враги украли у нас с аэродрома цистерну со спиртом. Ваша задача уничтожить технику, но не цистерну. В случае, если спасти спирт не удастся - вам разрешается. уничтожить цистерну
+Враги украли у нас с аэродрома цистерну со спиртом . Наблюдатели заметили группу техники в квадрате DP28, колонна движется по дороге на юг. Ваша задача уничтожить технику, но не цистерну. В случае, если спасти спирт не удастся - вам разрешается. уничтожить цистерну
 
 03."Where is Vodka?"
-Enemies stole an alcohol tank from our airfield. Your task is to destroy the convoy, but not the tank. If you cannot save the alcohol, you are allowed to destroy the vodka-tank]],
+Enemies stole an alcohol tank from our airfield. Observers noticed a group of vehicles in the square DP28, the convoy is moving along the road to the south. Your task is to destroy the convoy, but not the tank. If you cannot save the alcohol, you are allowed to destroy the vodka-tank]],
     startMsgEnemy = "",
     goodEndMsgFriendly = 'Вертолетная задача выполнена! Helicopter mission complete!',
     goodEndMsgEnemy = "",
