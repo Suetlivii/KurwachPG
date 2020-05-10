@@ -326,6 +326,33 @@ On the border of squares DP26 and DP36, in the town of Ar Rawdah, a concentratio
     markText = ''
 }
 -------------------------------------------------------------------------------------------------------
+red_heli_13task = 
+{
+    name = 'rh13',
+    groupsPrefixes = { "RW" },
+    coalition = 1,
+    startTrigger = "31301",
+    goodEndTrigger = "31302",
+    badEndTrigeer = "31303",
+    cancelTrigger = "31304",
+    startMsgFriendly = [[13."Игра в прятки"
+Наш Агент сообщает! На севере DP28 в местечке Al Haqt, присутвует вражеский наблюдатель. Он каждый день выходит на крыши городка. Обнаружить и уничтожить!
+
+13."Hide and seek"
+Our Agent reporting! In the north of DP28 in the town Al Haqt, an enemy observer is present. Every day he goes to the rooftops of the town. Detect and destroy!]],
+    startMsgEnemy = "",
+    goodEndMsgFriendly = 'Вертолетная задача выполнена! Helicopter mission complete!',
+    goodEndMsgEnemy = "",
+    badEndMsgFriendly = "",
+    badEndMsgEnemy = "",
+    cancelEndMsgFriendly = "",
+    cancelEndMsgEnemy = "",
+    briefMsgFriendly = nil,
+    briefMsgEnemy = "",
+    markZoneName = "",
+    markText = ''
+}
+-------------------------------------------------------------------------------------------------------
 
 table.insert(redRotaryWingTasksConfig, red_heli_01_task)
 table.insert(redRotaryWingTasksConfig, red_heli_02_task)
