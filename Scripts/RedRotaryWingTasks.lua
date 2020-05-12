@@ -353,6 +353,34 @@ Our Agent reporting! In the north of DP28 in the town Al Haqt, an enemy observer
     markText = ''
 }
 -------------------------------------------------------------------------------------------------------
+red_heli_14task = 
+{
+    name = 'rh14',
+    groupsPrefixes = { "RW" },
+    coalition = 1,
+    startTrigger = "31401",
+    goodEndTrigger = "31402",
+    badEndTrigeer = "31403",
+    cancelTrigger = "31404",
+    startMsgFriendly = [[14."Внезапная удача"
+Наблюдатель докладывает! На побережье в квадрате DP06 совершил аварийную посадку AH64 и там уже трудится ремонтная бригада. Уничтожьте вертолет до того как он поднимится в воздух!
+
+14."Sudden Luck"
+14. “Sudden luck”
+The observer is reporting! On the coast in a square DP06 made an emergency landing AH64 and a repair team is already working there. Destroy the helicopter before it takes off!]],
+    startMsgEnemy = "",
+    goodEndMsgFriendly = 'Вертолетная задача выполнена! Helicopter mission complete!',
+    goodEndMsgEnemy = "",
+    badEndMsgFriendly = "",
+    badEndMsgEnemy = "",
+    cancelEndMsgFriendly = "",
+    cancelEndMsgEnemy = "",
+    briefMsgFriendly = nil,
+    briefMsgEnemy = "",
+    markZoneName = "",
+    markText = ''
+}
+-------------------------------------------------------------------------------------------------------
 
 table.insert(redRotaryWingTasksConfig, red_heli_01_task)
 table.insert(redRotaryWingTasksConfig, red_heli_02_task)
@@ -367,3 +395,4 @@ table.insert(redRotaryWingTasksConfig, red_heli_10_task)
 table.insert(redRotaryWingTasksConfig, red_heli_11_task)
 table.insert(redRotaryWingTasksConfig, red_heli_12_task)
 table.insert(redRotaryWingTasksConfig, red_heli_13_task)
+table.insert(redRotaryWingTasksConfig, red_heli_14_task)
