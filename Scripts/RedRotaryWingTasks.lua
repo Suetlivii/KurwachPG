@@ -366,8 +366,34 @@ red_heli_14task =
 Наблюдатель докладывает! На побережье в квадрате DP06 совершил аварийную посадку AH64 и там уже трудится ремонтная бригада. Уничтожьте вертолет до того как он поднимится в воздух!
 
 14."Sudden Luck"
-14. “Sudden luck”
 The observer is reporting! On the coast in a square DP06 made an emergency landing AH64 and a repair team is already working there. Destroy the helicopter before it takes off!]],
+    startMsgEnemy = "",
+    goodEndMsgFriendly = 'Вертолетная задача выполнена! Helicopter mission complete!',
+    goodEndMsgEnemy = "",
+    badEndMsgFriendly = "",
+    badEndMsgEnemy = "",
+    cancelEndMsgFriendly = "",
+    cancelEndMsgEnemy = "",
+    briefMsgFriendly = nil,
+    briefMsgEnemy = "",
+    markZoneName = "",
+    markText = ''
+}
+-------------------------------------------------------------------------------------------------------
+red_heli_15task = 
+{
+    name = 'rh15',
+    groupsPrefixes = { "RW" },
+    coalition = 1,
+    startTrigger = "31501",
+    goodEndTrigger = "31502",
+    badEndTrigeer = "31503",
+    cancelTrigger = "31504",
+    startMsgFriendly = [[15."Проснись самурай, нам надо сжечь остров"
+Обнаружена небольшая вертолетная база на маленьком островке в квадрате DP59. Сожгите эту базу к чертям!
+
+15."Wake the fuck up, Samurai. We have an island to burn."
+A small helicopter base was discovered on a small island in square DP59. Burn this base to hell!]],
     startMsgEnemy = "",
     goodEndMsgFriendly = 'Вертолетная задача выполнена! Helicopter mission complete!',
     goodEndMsgEnemy = "",
@@ -396,3 +422,4 @@ table.insert(redRotaryWingTasksConfig, red_heli_11_task)
 table.insert(redRotaryWingTasksConfig, red_heli_12_task)
 table.insert(redRotaryWingTasksConfig, red_heli_13_task)
 table.insert(redRotaryWingTasksConfig, red_heli_14_task)
+table.insert(redRotaryWingTasksConfig, red_heli_15_task)
