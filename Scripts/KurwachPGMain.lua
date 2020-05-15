@@ -35,7 +35,7 @@ RedRotaryWingTaskManager:StartTasking()
 --Hidden blue tasking manager 
 BlueCapTaskManager = TaskManager:New("BlueCapTaskManager")
 BlueCapTaskManager:SetMissions(blueCapTasksConfig)
-BlueCapTaskManager:SetTimeBetween(1200, 0.5)
+BlueCapTaskManager:SetTimeBetween(1400, 0.3)
 BlueCapTaskManager:StartTasking()
 
 --Adding task report managers that will show task brief on "Show mission" menu command for FIXED wing aircraft
