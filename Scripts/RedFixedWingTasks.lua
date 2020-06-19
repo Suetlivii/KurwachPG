@@ -704,6 +704,33 @@ Urgent message! Saboteurs had stolen one of our Mig-31 from our airbase with ful
     markText = ''
 }
 -------------------------------------------------------------------------------------------------------
+red27_task = 
+{
+    name = 'r27',
+    groupsPrefixes = { "FW" },
+    coalition = 1,
+    startTrigger = "12701",
+    goodEndTrigger = "12702",
+    badEndTrigeer = "12703",
+    cancelTrigger = "12704",
+    startMsgFriendly = [[27."Бар "Утренняя скука""
+Разведка сообщает: На авиабазу Fujarah Intl (DN37) привезли экперементальные боеприпасы для РСЗО. Ваша задача уничтожить 4 таких склада на авиабазе.
+
+27.""Morning Boredom" Bar"
+Intelligence reports: Experimental munitions for the MLRS were brought to Fujarah Intl (DN37) airbase. Your task is to destroy 4 such depots at the air base.]],
+    startMsgEnemy = "",
+    goodEndMsgFriendly = 'Задача выполнена! Mission complete!',
+    goodEndMsgEnemy = "",
+    badEndMsgFriendly = "Миссия провалена! / Mission failed!",
+    badEndMsgEnemy = "",
+    cancelEndMsgFriendly = "",
+    cancelEndMsgEnemy = "",
+    briefMsgFriendly = nil,
+    briefMsgEnemy = "",
+    markZoneName = "",
+    markText = ''
+}
+-------------------------------------------------------------------------------------------------------
 
 table.insert(redFixedWingTasksConfig, red01_task)
 table.insert(redFixedWingTasksConfig, red02_task)
@@ -731,3 +758,4 @@ table.insert(redFixedWingTasksConfig, red23_task)
 table.insert(redFixedWingTasksConfig, red24_task)
 table.insert(redFixedWingTasksConfig, red25_task)
 table.insert(redFixedWingTasksConfig, red26_task)
+table.insert(redFixedWingTasksConfig, red27_task)
